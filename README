@@ -1,0 +1,15 @@
+Tugas 1: Implementasi Lengkap
+Implementasikan semua kode yang telah dijelaskan dalam modul ini dan pastikan aplikasi berjalan dengan baik.
+
+Tugas 2: Fitur Tambahan
+Tambahkan fitur-fitur berikut:
+
+Remember Me: Checkbox untuk mengingat username terakhir
+Show/Hide Password: Tombol untuk menampilkan/menyembunyikan password
+Reset Form: Tombol untuk reset semua field biodata
+Tugas 3: Validasi Lanjutan
+Implementasikan validasi tambahan:
+
+Email: Tambahkan field email dengan validasi format
+Telepon: Tambahkan field telepon dengan validasi format Indonesia
+Tanggal Lahir: Tambahkan field tanggal lahir

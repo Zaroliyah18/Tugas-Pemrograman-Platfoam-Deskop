@@ -1,0 +1,14 @@
+Data disimpan oleh: admin
+Waktu penyimpanan: 2026-10-03 20:54:43
+--------------------------------------------------
+BIODATA TERSIMPAN:
+Diinput oleh: admin
+
+Nama: zahrotul
+NIM: 24106050015
+Jurusan: TIF
+ Email: zaroliyah@gmail.com
+ No Telepon: 081328343322
+ Tanggal Lahir: 18-09-2005
+ Alamat: wonosobo
+Jenis Kelamin: Wanita
