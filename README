@@ -1,3 +1,50 @@
+# Aplikasi Biodata Mahasiswa
+
+Aplikasi desktop berbasis Python dan Tkinter untuk login dan mengisi biodata mahasiswa. Setelah login, pengguna dapat mengisi form, melihat hasil biodata, menyimpan hasil ke berkas teks, mereset form, dan logout.
+
+## Fitur
+
+- Login dengan akun yang tersedia di dalam aplikasi.
+- Remember Me untuk menyimpan username terakhir saja; kata sandi tidak disimpan.
+- Tombol untuk menampilkan atau menyembunyikan kata sandi.
+- Form biodata berisi nama, NIM, jurusan, email, nomor telepon, tanggal lahir, alamat, dan jenis kelamin.
+- Persetujuan pengumpulan data wajib dicentang sebelum biodata dapat dikirim.
+- Validasi biodata: NIM harus berupa angka minimal 8 digit, nama tidak boleh hanya berisi angka, email harus berformat valid, nomor telepon harus mengikuti format Indonesia, dan tanggal lahir harus valid serta tidak di masa depan (tahun minimal 1900).
+- Hasil biodata dapat disimpan sebagai berkas `.txt` melalui menu **File > Simpan Hasil**. Form dapat dikosongkan melalui **File > Reset Form**.
+- Aktivitas aplikasi dicatat ke `aplikasi_biodata.log`.
+
+## Persyaratan
+
+- Python 3
+- Tkinter (umumnya sudah disertakan pada instalasi Python)
+
+Tidak ada dependensi pihak ketiga yang diperlukan.
+
+## Menjalankan aplikasi
+
+Dari folder proyek, jalankan:
+
+```bash
+python Aplikasi_Biodata.py
+```
+
+## Akun login demo
+
+| Username | Password |
+| --- | --- |
+| `admin` | `123` |
+| `user1` | `password1` |
+| `mahasiswa` | `123456` |
+| `Zahrotul` | `24106050015` |
+
+## Catatan format input
+
+- Email, misalnya `nama@domain.com`.
+- Nomor telepon Indonesia, misalnya `08123456789`, `628123456789`, atau `+628123456789`. Spasi dan tanda hubung diabaikan saat validasi.
+- Tanggal lahir harus ditulis dalam format **DD-MM-YYYY**, misalnya `17-08-2005`.
+
+## Teks tugas awal
+
 Tugas 1: Implementasi Lengkap
 Implementasikan semua kode yang telah dijelaskan dalam modul ini dan pastikan aplikasi berjalan dengan baik.
 
